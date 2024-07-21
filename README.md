@@ -9,8 +9,9 @@ Tools used:
 
 ## Table of contents
 
-1. [Introduction](https://github.com/backstreetbrogrammer/53_IntroductionToNumPy#chapter-1-introduction)
-2. [Installation and Setup](https://github.com/backstreetbrogrammer/53_IntroductionToNumPy#chapter-2-installation-and-setup)
+1. [Introduction](https://github.com/backstreetbrogrammer/53_IntroductionToNumPy?tab=readme-ov-file#chapter-1-introduction)
+2. [Installation and Setup](https://github.com/backstreetbrogrammer/53_IntroductionToNumPy?tab=readme-ov-file#chapter-2-installation-and-setup)
+3. [Array Fundamentals](https://github.com/backstreetbrogrammer/53_IntroductionToNumPy?tab=readme-ov-file#chapter-3-array-fundamentals)
 
 ---
 
@@ -43,7 +44,7 @@ in another sequence of the same length.
 
 If the data is stored in two Python **lists**, `a` and `b`, we could iterate over each element:
 
-```python
+```
 c = []
 for i in range(len(a)):
     c.append(a[i] * b[i])
@@ -103,7 +104,7 @@ Vectorized code has many advantages, among which are:
 - the code more closely resembles standard mathematical notation (making it easier, typically, to correctly code
   mathematical constructs)
 - vectorization results in more **“Pythonic”** code. Without vectorization, our code would be littered with inefficient
-  and difficult to read for loops.
+  and difficult to read `for` loops.
 
 **Broadcasting**
 
@@ -147,3 +148,8 @@ jupyter lab
 # deactivate and come out of virtual env
 conda deactivate
 ```
+
+---
+
+## Chapter 3. Array Fundamentals
+
