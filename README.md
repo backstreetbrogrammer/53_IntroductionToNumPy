@@ -196,7 +196,7 @@ In `NumPy`, this idea is generalized to an arbitrary number of dimensions, and s
 Most `NumPy` arrays have some restrictions. For instance:
 
 - All elements of the array must be of the **same** type of data.
-- Once created, the total size of the array can’t change.
+- Once created, the total size of the array can **NOT** change.
 - The shape must be **“rectangular”**, not **“jagged”**; e.g., each row of a two-dimensional array must have the same
   number of columns.
 
