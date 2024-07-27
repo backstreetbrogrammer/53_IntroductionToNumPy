@@ -6,12 +6,14 @@ Tools used:
 
 - Python 3.10
 - NumPy 1.26.4
+- Jupyter Notebook
 
 ## Table of contents
 
 1. [Introduction](https://github.com/backstreetbrogrammer/53_IntroductionToNumPy?tab=readme-ov-file#chapter-1-introduction)
 2. [Installation and Setup](https://github.com/backstreetbrogrammer/53_IntroductionToNumPy?tab=readme-ov-file#chapter-2-installation-and-setup)
 3. [Array Fundamentals](https://github.com/backstreetbrogrammer/53_IntroductionToNumPy?tab=readme-ov-file#chapter-3-array-fundamentals)
+4. [Introduction_To_NumPy Jupyter Notebook](https://github.com/backstreetbrogrammer/53_IntroductionToNumPy/blob/main/Introduction_To_NumPy.ipynb)
 
 ---
 
@@ -202,5 +204,12 @@ Most `NumPy` arrays have some restrictions. For instance:
 
 When these conditions are met, `NumPy` exploits these characteristics to make the array faster, more memory efficient,
 and more convenient to use than less restrictive data structures.
+
+---
+
+## Chapter 4. Introduction_To_NumPy Jupyter Notebook
+
+Here we walk through the complete
+[Jupyter Notebook](https://github.com/backstreetbrogrammer/53_IntroductionToNumPy/blob/main/Introduction_To_NumPy.ipynb).
 
 
