@@ -186,11 +186,11 @@ We often talk about an array as if it were a grid in space, with each cell stori
 For instance, if each element of the data were a **number**, we might visualize a **“one-dimensional”** array like a
 **list**:
 
-![1D_array](1D_array.PNG)
+![1D_array](01_1D_array.PNG)
 
 A **two-dimensional** array would be like a **table**:
 
-![2D_array](2D_array.PNG)
+![2D_array](02_2D_array.PNG)
 
 In `NumPy`, this idea is generalized to an arbitrary number of dimensions, and so the fundamental array class is called
 `ndarray`: it represents an **“N-dimensional array”**.
