@@ -1,5 +1,7 @@
 # Compiled class file
 *.class
+*.npy
+*.npz
 
 # Log file
 *.log

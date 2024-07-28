@@ -151,6 +151,7 @@ Install modules:
 ```
 # mandatory
 python -m pip install -U pandas
+python -m pip install -U matplotlib
 python -m pip install -U notebook
 
 # optional
