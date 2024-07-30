@@ -65,7 +65,7 @@ for (i = 0; i < rows; i++) {
 
 Furthermore, the coding work required increases with the **dimensionality** of our data.
 
-In the case of a **2-D array**, for example, the C code expands to:
+In the case of a **2-D array**, for example, the `C` code expands to:
 
 ```
 for (i = 0; i < rows; i++) {
@@ -117,6 +117,8 @@ element-by-element fashion, i.e., they broadcast.
 Moreover, in the example above, `a` and `b` could be multidimensional arrays of the same shape, or a scalar and an
 array, or even two arrays with different shapes, if the smaller array is **“expandable”** to the shape of the larger in
 such a way that the resulting broadcast is unambiguous.
+
+![07_Broadcasting](07_Broadcasting.PNG)
 
 ---
 
