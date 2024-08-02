@@ -15,6 +15,12 @@ Tools used:
 3. [Array Fundamentals](https://github.com/backstreetbrogrammer/53_IntroductionToNumPy?tab=readme-ov-file#chapter-3-array-fundamentals)
 4. [Introduction_To_NumPy Jupyter Notebook](https://github.com/backstreetbrogrammer/53_IntroductionToNumPy/blob/main/Introduction_To_NumPy.ipynb)
 
+## Youtube
+
+![Introduction To NumPy playlist](IntroductionToNumPy.png)
+
+[Introduction To NumPy playlist](https://www.youtube.com/playlist?list=PLQDzPczdXrTiJ7p3Aa6JyT6gzNtmTh-3l)
+
 ---
 
 ## Chapter 1. Introduction
@@ -119,6 +125,10 @@ array, or even two arrays with different shapes, if the smaller array is **“ex
 such a way that the resulting broadcast is unambiguous.
 
 ![07_Broadcasting](07_Broadcasting.PNG)
+
+### Youtube
+
+[01 - Introduction to Numpy - Tutorial Series](https://youtu.be/ZURPUJ7J5hM)
 
 ---
 
