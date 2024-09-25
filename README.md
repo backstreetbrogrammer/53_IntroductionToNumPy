@@ -134,6 +134,59 @@ such a way that the resulting broadcast is unambiguous.
 
 ## Chapter 2. Installation and Setup
 
+**Download and Install Python**
+
+[Python Download](https://www.python.org/downloads/)
+
+**Verify Installation**
+
+- Open a command prompt
+- Type command `python -V`
+
+![PythonVersion](PythonVersion.PNG)
+
+**Python Virtual Environments**
+
+![VirtualEnv](VirtualEnv.PNG)
+
+- **Isolates** the Python interpreter, libraries and scripts used in a specific project
+- Enables **multiple** environments on our computer, each with different versions of Python and its packages, without
+  them interfering with each other
+- Think of it as a **sandbox**, where we can play around with different packages and their versions without worrying
+  about messing up our other sandboxes
+
+**Python Virtual environment on Windows**
+
+- Open a command prompt
+- Move to the project folder: `cd test`
+- Type: `python -m venv venv` => this will create a new virtual environment named **"venv"** inside our project
+  (**test** folder)
+- Activate the virtual environment: `venv\Scripts\activate`
+- Deactivate the virtual environment: `deactivate`
+
+If using Powershell instead of command prompt, please remember to run this command to avoid any permission errors:
+
+`Set-ExecutionPolicy -Scope User Unrestricted`
+
+We can also create a file with all our installed modules and versions which can be used to create exactly the same
+virtual environment in a different machine.
+
+For ex:
+
+- Command: `python -m pip freeze > requirements.txt` => this will create **requirements.txt** file containing all
+  our installed modules with versions
+- To install the same modules in a different virtual environment => `python -m pip install -r requirements.txt`
+
+**Upgrade pip**
+
+We should consider upgrading **pip** once we create our virtual environment.
+
+This can be done by simply typing this command from inside our virtual environment:
+
+`python -m pip install -U pip`
+
+### Set up our project
+
 **Download and Install Anaconda**
 
 [Anaconda Home Page](https://www.anaconda.com/)
@@ -172,6 +225,14 @@ python -m pip install -U numexpr
 python -m pip install -U jupyterlab
 python -m pip install -U --force-reinstall charset-normalizer  
 ```
+
+**Optional modules details**
+
+- `bottleneck`: Bottleneck is a collection of fast NumPy array functions written in C.
+- `numexpr`: Fast numerical expression evaluator for NumPy.
+- `jupyterlab`: An extensible environment for interactive and reproducible computing, based on the Jupyter Notebook and
+  Architecture.
+- `charset-normalizer`: A library that helps read text from an **_unknown_** charset encoding.
 
 Move to the working directory and launch jupyter notebook:
 
