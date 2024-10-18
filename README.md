@@ -249,6 +249,10 @@ Deactivate and come out of virtual env:
 conda deactivate
 ```
 
+### Youtube
+
+[02 - Python installation and virtual environment setup](https://youtu.be/tU6pn3n5ur8)
+
 ---
 
 ## Chapter 3. Array Fundamentals
