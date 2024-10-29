@@ -234,7 +234,13 @@ python -m pip install -U --force-reinstall charset-normalizer
   Architecture.
 - `charset-normalizer`: A library that helps read text from an **_unknown_** charset encoding.
 
-Move to the working directory and launch jupyter notebook:
+Alternatively, if we want to see our Jupyter notebook in **DARK** mode, run this command:
+
+```
+jt -t onedork -f roboto -cellw 95%
+```
+
+Now all setup is done, lets move to the working directory and launch jupyter notebook:
 
 ```
 cd <workspace>
@@ -248,6 +254,18 @@ Deactivate and come out of virtual env:
 ```
 conda deactivate
 ```
+
+To delete an environment, run the command below:
+
+```
+conda remove --name <env_name> --all
+```
+
+`<env_name>` denotes the name of the environment to be removed/deleted.
+
+We need to ensure that we deactivate an environment before removing it by running the conda deactivate command.
+
+The `--all` flag removes all the packages installed in that environment.
 
 ### Youtube
 
