@@ -128,7 +128,7 @@ such a way that the resulting broadcast is unambiguous.
 
 ### Youtube
 
-[01 - Introduction to Numpy - Tutorial Series](https://youtu.be/ZURPUJ7J5hM)
+- [01 - Introduction to Numpy - Tutorial Series](https://youtu.be/ZURPUJ7J5hM)
 
 ---
 
@@ -269,7 +269,8 @@ The `--all` flag removes all the packages installed in that environment.
 
 ### Youtube
 
-[02 - Python installation and virtual environment setup](https://youtu.be/tU6pn3n5ur8)
+- [02 - Python installation and virtual environment setup](https://youtu.be/tU6pn3n5ur8)
+- [03 - Anaconda installation and project setup](https://youtu.be/s_7LPsSQovQ)
 
 ---
 
