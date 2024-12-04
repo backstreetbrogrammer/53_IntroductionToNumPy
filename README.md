@@ -302,6 +302,10 @@ Most `NumPy` arrays have some restrictions. For instance:
 When these conditions are met, `NumPy` exploits these characteristics to make the array faster, more memory efficient,
 and more convenient to use than less restrictive data structures.
 
+### Youtube
+
+- [04 - Array Fundamentals](https://youtu.be/jPboaVQNvvw)
+
 ---
 
 ## Chapter 4. Introduction_To_NumPy Jupyter Notebook
