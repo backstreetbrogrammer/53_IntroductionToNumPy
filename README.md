@@ -313,4 +313,6 @@ and more convenient to use than less restrictive data structures.
 Here we walk through the complete
 [Jupyter Notebook](https://github.com/backstreetbrogrammer/53_IntroductionToNumPy/blob/main/Introduction_To_NumPy.ipynb).
 
+### Youtube
 
+- [05 - Jupyter Notebook - Array Fundamentals](https://youtu.be/Oeap_gwzBTs)
